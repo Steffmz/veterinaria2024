@@ -6,7 +6,7 @@ CREATE TABLE Veterinarios (
     Codveterinario INT AUTO_INCREMENT PRIMARY KEY,
     Nombre VARCHAR(50),
     Correo VARCHAR(100) UNIQUE,
-    Telefono VARCHAR(15),
+    telefono VARCHAR(15),
     Especialidad VARCHAR(50)
     
 );

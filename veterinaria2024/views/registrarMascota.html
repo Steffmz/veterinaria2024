@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Mascota</title>
+</head>
+<body>
+    <h1>Registrar Mascota</h1>
+    <form action="../controllers/Mascotacontrolador.php?accion=registrar" method="POST">
+        <label for="nombre">Nombre de la Mascota:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="especie">Especie:</label>
+        <input type="text" id="especie" name="especie" required>
+
+        <label for="raza">Raza:</label>
+        <input type="text" id="raza" name="raza">
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad">
+
+        <label for="propietario">ID del Propietario:</label>
+        <input type="number" id="propietario" name="propietario" required>
+
+        <button type="submit">Registrar Mascota</button>
+    </form>
+</body>
+</html>

@@ -33,7 +33,7 @@
                         <td><?= htmlspecialchars($veterinario['Codveterinario']) ?></td>
                         <td><?= htmlspecialchars($veterinario['Nombre']) ?></td>
                         <td><?= htmlspecialchars($veterinario['email']) ?></td>
-                        <td><?= htmlspecialchars($veterinario['Telefono']) ?></td>
+                        <td><?= htmlspecialchars($veterinario['telefono']) ?></td>
                         <td><?= htmlspecialchars($veterinario['Especialidad']) ?></td>
                         <td><?= htmlspecialchars($veterinario['descripcion']) ?></td> <!-- Mostrar descripción -->
                         <td><?= htmlspecialchars($veterinario['horarios_atencion']) ?></td> <!-- Mostrar horarios -->

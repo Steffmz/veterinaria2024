@@ -15,10 +15,10 @@
         <input type="text" id="especie" name="especie" value="<?= htmlspecialchars($mascota['Especie']) ?>" required><br><br>
 
         <label for="raza">Raza:</label>
-        <input type="text" id="raza" name="raza" value="<?= htmlspecialchars($mascota['raza']) ?>" required><br><br>
+        <input type="text" id="raza" name="raza" value="<?= htmlspecialchars($mascota['Raza']) ?>" required><br><br>
 
         <label for="edad">Edad:</label>
-        <input type="number" id="edad" name="edad" value="<?= htmlspecialchars($mascota['edad']) ?>" required><br><br>
+        <input type="number" id="edad" name="edad" value="<?= htmlspecialchars($mascota['Edad']) ?>" required><br><br>
 
         <label for="propietario">Propietario:</label>
         <select name="propietario" id="propietario" required>

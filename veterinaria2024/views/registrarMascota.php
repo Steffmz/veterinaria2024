@@ -1,3 +1,19 @@
+<?php
+// Incluir la conexión y el modelo Usuario
+require_once "../config/Conexion.php";
+require_once "../models/Usuario.php";
+
+// Crear una instancia de la conexión
+$database = new Database();
+$db = $database->getConnection();
+
+// Crear una instancia del modelo Usuario
+$usuarioModel = new Usuario($db);
+
+// Obtener todos los usuarios
+$usuarios = $usuarioModel->listarUsuarios(); // Esto devuelve un array de usuarios
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>

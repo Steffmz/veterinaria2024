@@ -19,7 +19,7 @@
         <input type="email" id="email" name="email" value="<?= htmlspecialchars($veterinario['email']) ?>" required>
 
         <label for="telefono">Teléfono:</label>
-        <input type="text" id="telefono" name="telefono" value="<?= htmlspecialchars($veterinario['Telefono']) ?>" required>
+        <input type="text" id="telefono" name="telefono" value="<?= htmlspecialchars($veterinario['telefono']) ?>" required>
 
         <label for="especialidad">Especialidad:</label>
         <input type="text" id="especialidad" name="especialidad" value="<?= htmlspecialchars($veterinario['Especialidad']) ?>" required>

@@ -25,8 +25,8 @@
                     <tr>
                         <td><?= htmlspecialchars($mascota['Nombre']) ?></td>
                         <td><?= htmlspecialchars($mascota['Especie']) ?></td>
-                        <td><?= htmlspecialchars($mascota['raza']) ?></td>
-                        <td><?= htmlspecialchars($mascota['edad']) ?></td>
+                        <td><?= htmlspecialchars($mascota['Raza']) ?></td>
+                        <td><?= htmlspecialchars($mascota['Edad']) ?></td>
                         <td><?= htmlspecialchars($mascota['Propietario']) ?></td>
                         <td>
                             <a href="../controllers/MascotaControlador.php?accion=editar&Codmascota=<?= $mascota['Codmascota'] ?>">Editar</a>

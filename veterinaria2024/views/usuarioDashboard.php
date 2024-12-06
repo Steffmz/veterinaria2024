@@ -12,7 +12,7 @@ session_start();
 <body>
     <h1>Bienvenido, Usuario</h1>
     <nav>
-        <a href="../views/registrarMascota.html">Registrar Mascota</a>
+        <a href="../views/registrarMascota.php">Registrar Mascota</a>
         <a href="../controllers/Mascotacontrolador.php?accion=listar">Ver Mis Mascotas</a>
         <a href="../controllers/Usuariocontrolador.php?accion=logout">Cerrar Sesión</a>
     </nav>
